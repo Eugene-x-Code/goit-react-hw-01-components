@@ -1,0 +1,35 @@
+.transactionHistory {
+  width: 872px;
+  box-shadow: 1px 0px 8px 2px #bfcdde;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.thead {
+  background-color: #00bcd4;
+  text-transform: uppercase;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.th {
+  text-align: center;
+}
+
+.tr {
+  width: 872px;
+  background-color: #fff;
+}
+
+.trEven {
+  width: 872px;
+  background-color: #ecf2f3;
+}
+
+td {
+  text-transform: capitalize;
+  line-height: 50px;
+  text-align: center;
+  color: #5c6975;
+}
