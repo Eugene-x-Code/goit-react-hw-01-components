@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './stats.module.css';
-
-function bgColorRandomizer() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
+import ColorRandomizer from '../../Utils/ColorRandomizer';
 
 const Stats = ({ title, stats }) => (
   <section className={styles.statsSection}>
@@ -15,7 +12,7 @@ const Stats = ({ title, stats }) => (
         <li
           className={styles.item}
           key={stat.id}
-          style={{ background: bgColorRandomizer() }}
+          style={{ background: ColorRandomizer() }}
         >
           <span className={styles.label}>{stat.label}</span>
           <span className={styles.percentage}>{`${stat.percentage}%`}</span>
